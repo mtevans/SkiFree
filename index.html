@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style>
+    html {
+     background: whitesmoke;
+   }
+   body {
+     color: #515151;
+     font-family: "PT Sans", Helvetica, Arial, sans-serif;
+   }
+   h1 {
+     text-align: center;
+     font-weight: bold;
+     font-size: 36px;
+   }
+   #myCanvas {
+     display: block;
+     margin: auto;
+     border: 1px solid #ccc;
+     border-radius: 6px;
+     width: 500px;
+     height: 500px;
+     background: white;
+     background-image: url('./images/background.png');
+     background-size: contain;
+   }
+   p {
+     text-align: center;
+     font-weight: normal;;
+     font-size: 16px;
+   }
+    </style>
+  </head>
+  <body>
+    <div style="display:none;">
+     <img id="obstacles"
+      src="images/obstacles.png">
+     <img id="skier"
+      src="images/skier.png">
+    </div>
+    <h1>SKIIIIIIFREE</h1>
+    <canvas id="myCanvas" width="500" height="500"></canvas>
+    <script type="text/javascript" src="bundle.js" charset="utf-8"></script>
+
+  </body>
+</html>
