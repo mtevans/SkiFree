@@ -3,46 +3,40 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-
-    <style>
-    html {
-     background: whitesmoke;
-   }
-   body {
-     color: #515151;
-     font-family: "PT Sans", Helvetica, Arial, sans-serif;
-   }
-   h1 {
-     text-align: center;
-     font-weight: bold;
-     font-size: 36px;
-   }
-   #myCanvas {
-     display: block;
-     margin: auto;
-     border: 1px solid #ccc;
-     border-radius: 6px;
-     width: 500px;
-     height: 500px;
-     background: white;
-     background-size: contain;
-   }
-   p {
-     text-align: center;
-     font-weight: normal;;
-     font-size: 16px;
-   }
-    </style>
+    <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="styling.scss">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
   <body>
+
+</div>
+
     <div style="display:none;">
      <img id="obstacles"
       src="images/obstacles.png">
      <img id="skier"
       src="images/skier.png">
     </div>
-    <h1>SKIIIIIIFREE</h1>
-    <canvas id="myCanvas" width="500" height="500"></canvas>
+    <heading class='heading'>
+      <h1 id='green'>SKI</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h1 id='pink'>FREE</h1>
+    </heading>
+    <div class='game'>
+
+    <canvas class="pre-canvas" id=myCanvas width="500" height="500"></canvas>
+    <instructions class="pre-instructions" id='instructions'>
+      <h2 class="title">Instructions</h2>
+      <h3>Use the arrow keys to move left and right</h3>
+      <h3>Avoid the obstacles </h3>
+      <h3>This <img src="./images/jump.png"/> is a jump</h3>
+      <h3 >Survive Sasquatch ... if you can <h3>
+        <h3 class="key-info">Hit Enter to Play</h3>
+      </instructions>
+    <key class="key">
+      <h2 class="title">More Info</h2>
+      <h3>If you get over 1000 points, you'll survive Sasquatch</h3>
+      <h3 class="key-info">Hit R to reset the game</h3>
+    </key>
+  </div>
     <script type="text/javascript" src="./lib/bundle.js" charset="utf-8"></script>
 
   </body>

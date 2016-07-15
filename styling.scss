@@ -1,0 +1,144 @@
+html {
+ background: whitesmoke;
+}
+body {
+ color: #515151;
+ font-family: "PT Sans", Helvetica, Arial, sans-serif;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+h1 {
+ text-align: center;
+ font-weight: bold;
+ font-size: 70px;
+ font-family: Monoton;
+}
+.play-canvas, .pre-canvas {
+ display: block;
+ margin: auto;
+ border: 1px solid #ccc;
+ border-radius: 6px;
+ width: 500px;
+ height: 500px;
+ background: rgb(211, 247, 251);
+
+ background-size: contain;
+ position: relative;
+ top: -50px;
+}
+
+.play-canvas{
+  background-image: none;
+}
+.pre-canvas{
+  background-image: url("./images/canvas_background.png");
+  z-index: 1;
+}
+
+.pre-instructions, .post-instructions{
+  display: flex;
+  z-index: 3;
+  opacity: 0.8;
+  position: relative;
+  color: black;
+  font-size: 16px;
+  align-items: center;
+  padding: 10px;
+  flex-direction: column;
+  background: #68fb68;
+  text-align: center;
+}
+
+.pre-instructions{
+  flex-direction: column;
+    background: #68fb68;
+    top: -556px;
+    height: 485px;
+}
+
+.post-instructions{
+  flex-direction: column;
+  background: #68fb68;
+  top: -551px;
+  left: 507px;
+  width: 214px;
+  height: 479px;
+}
+
+.key, .post-key{
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  background: pink;
+  opacity: 0.8;
+  left: -239px;;
+  width: 214px;
+  height: 484px;
+  padding: 10px;
+  color: black;
+  text-align: center
+}
+
+.key{
+  top: -1061px;
+}
+
+.key-info{
+  font-size: 23px;
+}
+
+.post-key{
+  top: -1051px;
+}
+
+.title{
+  font-family: monoton;
+  font-size: 27px;
+}
+
+.game{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+
+p {
+ text-align: center;
+ font-weight: normal;;
+ font-size: 16px;
+}
+
+heading {
+ display: flex;
+ width: 100%;
+ justify-content: center;
+ position: relative;
+ top: -33px;
+}
+
+#green{
+  color: #68fb68;
+}
+
+#pink{
+  color: pink;
+}
+
+html{
+  background-image: url("./images/background_image.jpg");
+}
+
+#theModal{
+  display: flex;
+  background: #86e886;
+  opacity: 0.5;
+  position: absolute;
+  top: 161px;
+  height: 496px;
+  width: 56%;
+  left: 22%;
+  z-index: 1;
+}
