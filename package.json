@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "webpack": "^1.13.1",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
     "npm": "3.8.6",
     "node": "6.1.0"
   }
