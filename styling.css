@@ -142,3 +142,17 @@ html{
   left: 22%;
   z-index: 1;
 }
+
+.enter-key{
+  position: relative;
+  top: 10px;
+  height: 43px;
+  width: 113px;
+}
+
+.small-key{
+  height: 25px;
+  width: 25px;
+  position: relative;
+  top: 5px;
+}
