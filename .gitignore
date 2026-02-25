@@ -1,2 +1,6 @@
-# Ignore node modules
+# Dependencies
 node_modules
+
+# Build artifacts
+lib/bundle.js
+lib/bundle.js.map
